@@ -1,0 +1,10 @@
+#text {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
+#image {
+    display: none;
+    width: 200px;
+    height: 200px;
+}
