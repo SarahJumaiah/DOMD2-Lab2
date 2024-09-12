@@ -19,8 +19,8 @@ document.getElementById("btn4").addEventListener("click", function() {
 });
 
 document.getElementById("btn5").addEventListener("click", function() {
-    let bdy = document.body;
-    bdy.style.backgroundColor = "beige"
+    let txt = document.getElementById("text");
+    txt.style.backgroundColor = "beige"
 
 });
 
