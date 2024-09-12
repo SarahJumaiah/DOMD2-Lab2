@@ -26,5 +26,10 @@ document.getElementById("btn5").addEventListener("click", function() {
 
 document.getElementById("btn6").addEventListener("click", function() {
     let img = document.getElementById("img")
-    img.src = "https://i.pinimg.com/474x/e8/e8/f8/e8e8f8e7ee539900ea6ac4fe4a02de17.jpg"
-});
+    if (img.src === "https://i.pinimg.com/474x/49/26/7a/49267aed4812d9c11ac4a8d7db23d0c5.jpg") {
+        img.src = "https://i.pinimg.com/474x/d8/a3/7e/d8a37e27e18a6649d1f6edf4d7e8d83c.jpg";  
+    }
+    else if (img.src ==="https://i.pinimg.com/474x/d8/a3/7e/d8a37e27e18a6649d1f6edf4d7e8d83c.jpg" )
+    {
+        img.src = "https://i.pinimg.com/474x/41/16/52/411652ca81182f1b9dd9b70f18e70a40.jpg"; 
+    }});
